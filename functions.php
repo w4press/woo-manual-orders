@@ -1,7 +1,7 @@
 <?php
 /** 
  * Plugin Name: Woo Manual Orders
- * Plugin URI: https://w4press.com
+ * Plugin URI: https://github.com/w4press/woo-manual-orders
  * Description: Woocommerce Manual Orders is a plugin that extends WooCommerce, allow you to quick create order as a customer. Requires WC 3.0.0+
  * Version: 1.0.3
  * Author: w4press <w4press@gmail.com>
