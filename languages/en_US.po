@@ -1,0 +1,1051 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Manual Orders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-15 07:03+0700\n"
+"PO-Revision-Date: 2018-12-15 07:03+0700\n"
+"Last-Translator: Buif <support@browsepress.com>\n"
+"Language-Team: w4press <w4press@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Loco-Target-Locale: vi_VN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: 1. URL link.
+#: functions.php:34
+#, php-format
+msgid ""
+"Manual Orders requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:85
+msgid "Manual Order Page"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:92
+msgid "Manual Order page"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:94
+#, php-format
+msgid ""
+"These page need to be set so that Woo-Manual-Order knows where the function "
+"to do. You can create a page with content: [%s], or <a id=\"%s\" href=\"#"
+"\">auto create page</a>"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:104
+msgid "Allow Roles"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:105
+msgid ""
+"Use Access Roles to control what users (or User Groups) can do within the "
+"Manual Order feature"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:115
+msgid "Show all available gateways"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:116
+msgid ""
+"Allow checkout all available gateways, instead of gateways has only support "
+"\"Invoicing\" type"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:123
+msgid "Hide product variable"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:124
+msgid "If you want to hide all product variable undefined price"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:152
+#: includes/class-woo-manual-order-admin.php:273
+msgid "Manual Order"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:174
+msgid "Are you sure you want to do this action?"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:200
+msgctxt "Page title"
+msgid "Manual Order"
+msgstr ""
+
+#: includes/class-woo-manual-order-admin.php:309
+msgid "Sales by Manual Order"
+msgstr ""
+
+#: includes/class-woo-manual-order-ajax.php:134
+msgid "Cutomer was assigned"
+msgstr ""
+
+#: includes/class-woo-manual-order-ctrl.php:147
+msgid "Settings"
+msgstr ""
+
+#: includes/class-woo-manual-order-ctrl.php:148
+msgid "Docs"
+msgstr ""
+
+#: includes/class-woo-manual-order-ctrl.php:405
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/class-woo-manual-order-ctrl.php:414
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:81
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:82
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:83
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:84
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:85
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:86
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:87
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:88
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:89
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:90
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#. translators: %s: shop cart url
+#: includes/class-woo-manual-shortcodes.php:346
+msgid "Please add item to order before checkout."
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:497
+msgid "Add new manual order"
+msgstr ""
+
+#: includes/class-woo-manual-shortcodes.php:499
+msgid "View this order in the admin area"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:31
+msgid "Hold Order"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:32
+msgid "Have your customers pay with cash (or by other means) upon delivery."
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:62
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:51
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:63
+msgid "Enable holder payment"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:69
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:58
+msgid "Title"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:71
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:60
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:72
+msgid "Holder Order"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:76
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:65
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:78
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:67
+msgid "Payment method description that the customer will see on your website."
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:79
+msgid "Hold order for process later."
+msgstr ""
+
+#: includes/gateways/holder/class-woo-gateway-holder.php:111
+msgid "Payment to be hold."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:33
+msgid "Paypal Invoicing"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:34
+msgid ""
+"PayPal makes it easy to send professional, customized invoices to your "
+"customers. In a few clicks, customers can pay you securely, and you "
+"typically receive your money in just minutes."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:52
+msgid "Enable Paypal Invoice"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:61
+msgid "Paypal Invoice"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:68
+msgid "Send invoice via Paypal."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:72
+msgid "Debug log"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:74
+msgid "Enable logging"
+msgstr ""
+
+#. translators: %s: URL
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:77
+#, php-format
+msgid ""
+"Log PayPal events, inside %s Note: this may log personal information. We "
+"recommend using this for debugging purposes only and deleting the logs when "
+"finished."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:80
+msgid "Merchant email"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:82
+msgid ""
+"The merchant email address. This email must be listed in the merchant's "
+"PayPal profile."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:85
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:102
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:110
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:119
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:127
+msgid "Require"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:88
+msgid "Transaction Mode"
+msgstr ""
+
+#. translators: %s: URL
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:93
+#, php-format
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a <a href=\"%s"
+"\">developer account</a>."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:97
+msgid "Live Client ID"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:99
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:107
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:116
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:124
+msgid "Get your API credentials from PayPal."
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:105
+msgid "Live Client Secret"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:114
+msgid "Sandbox Client ID"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:122
+msgid "Sandbox Client Secret"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:130
+msgid "The general terms"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:132
+msgid "The general terms of the invoice. Maximum length: 4000"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:189
+msgid "Can not send invoice"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:193
+msgid "Send invoice error"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:219
+msgid "Error processing checkout"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:245
+#, php-format
+msgid "%s: refunded %.2f from charge \"%s\""
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-gateway-paypal-invoicing.php:265
+#, php-format
+msgid "%s: refund of charge \"%s\" failed with message: \"%s\""
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-paypal-invoicing-remote.php:342
+msgid "Total shipping cost"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-paypal-invoicing-remote.php:348
+msgid "Total discount"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-paypal-invoicing-remote.php:354
+msgid "Total tax"
+msgstr ""
+
+#: includes/gateways/paypal/class-woo-paypal-invoicing-remote.php:372
+msgid "Item"
+msgstr ""
+
+#: includes/shortcodes/class-woo-manual-order-checkout.php:63
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the \"Place order\" button at the bottom of the page."
+msgstr ""
+
+#: templates/checkout/cart.php:23 templates/checkout/cart.php:70
+msgid "Product"
+msgstr ""
+
+#: templates/checkout/cart.php:24 templates/checkout/cart.php:90
+msgid "Price"
+msgstr ""
+
+#: templates/checkout/cart.php:25 templates/checkout/cart.php:96
+msgid "Quantity"
+msgstr ""
+
+#: templates/checkout/cart.php:26 templates/checkout/cart.php:114
+msgid "Total"
+msgstr ""
+
+#: templates/checkout/cart.php:31
+msgid "<p>The cart is currently empty.</p>"
+msgstr ""
+
+#: templates/checkout/cart.php:51
+msgid "Remove this item"
+msgstr ""
+
+#: templates/checkout/cart.php:85
+msgid "Available on backorder"
+msgstr ""
+
+#: templates/checkout/cart.php:133
+msgid "Coupon:"
+msgstr ""
+
+#: templates/checkout/cart.php:134
+msgid "Coupon code"
+msgstr ""
+
+#: templates/checkout/cart.php:134
+msgid "Apply coupon"
+msgstr ""
+
+#: templates/checkout/cart.php:139
+msgid "Update cart"
+msgstr ""
+
+#: templates/checkout/form-billing.php:19
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: templates/checkout/form-billing.php:23
+msgid "Billing details"
+msgstr ""
+
+#: templates/checkout/form-billing.php:50
+msgid "Create an account?"
+msgstr ""
+
+#: templates/checkout/form-checkout.php:22
+msgid "You do not have permission to access this feature."
+msgstr ""
+
+#: templates/checkout/form-checkout.php:31
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: templates/checkout/form-checkout.php:42
+msgid "Choose Customer"
+msgstr ""
+
+#: templates/checkout/form-checkout.php:44
+msgid "Guest"
+msgstr ""
+
+#: templates/checkout/form-checkout.php:53
+msgid "Choose Products"
+msgstr ""
+
+#: templates/checkout/form-checkout.php:55
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: templates/checkout/form-checkout.php:82
+msgid "Your order"
+msgstr ""
+
+#: templates/checkout/form-login.php:17
+msgid "Please login to use this feature,"
+msgstr ""
+
+#: templates/checkout/form-login.php:17
+msgid "Click here to login"
+msgstr ""
+
+#: templates/checkout/form-login.php:23
+msgid "Username or Email Address."
+msgstr ""
+
+#~ msgid "Who are purchasing this item"
+#~ msgstr "Những người đã mua bài này"
+
+#~ msgid "Balance"
+#~ msgstr "Số dư"
+
+#, fuzzy
+#~ msgid "Store Balance"
+#~ msgstr "Số dư"
+
+#~ msgid "Digital Content"
+#~ msgstr "Nội dung số"
+
+#~ msgid "Statement"
+#~ msgstr "Tường trình"
+
+#~ msgid "Action failed. Please refresh the page and retry."
+#~ msgstr "Thao tác lỗi, vui lòng load lại trang và thử lại"
+
+#~ msgid "User Commission"
+#~ msgstr "Hoa hồng người dùng"
+
+#~ msgid "( in percentage - % )"
+#~ msgstr "( tính theo - % )"
+
+#~ msgid "Your current balance: %s"
+#~ msgstr "Số dư hiện tại: %s"
+
+#~ msgid "view more"
+#~ msgstr "Xem chi tiết"
+
+#~ msgid "view less"
+#~ msgstr "Xem tóm tắt"
+
+#~ msgid "Date"
+#~ msgstr "Ngày"
+
+#~ msgid "Explain"
+#~ msgstr "Diễn giải"
+
+#, fuzzy
+#~ msgid "Updated by"
+#~ msgstr "Cập nhật số dư"
+
+#~ msgid "Amount"
+#~ msgstr "Số tiền"
+
+#~ msgid "Action"
+#~ msgstr "Thao tác"
+
+#~ msgid "Commission"
+#~ msgstr "Hoa hồng"
+
+#~ msgid "View Statement"
+#~ msgstr "Xem tường trình"
+
+#~ msgid "Sell Digital Content Settings"
+#~ msgstr "Quản trị nội dung số"
+
+#~ msgid "Reset to default"
+#~ msgstr "Thiết lập mặc định"
+
+#~ msgid "Statement details"
+#~ msgstr "Tường trình chi tiết"
+
+#~ msgid "Summary"
+#~ msgstr "Tóm tắt"
+
+#~ msgid "Total items:"
+#~ msgstr "Tất cả bài"
+
+#~ msgid "Saled items:"
+#~ msgstr "Số lượng bán"
+
+#~ msgid "Total quantity:"
+#~ msgstr "Số lượng"
+
+#~ msgid "Total price:"
+#~ msgstr "Tổng giá trị"
+
+#~ msgid "Commission:"
+#~ msgstr "Hoa hồng"
+
+#~ msgid "Earned:"
+#~ msgstr "Thực nhận"
+
+#, fuzzy
+#~ msgid "Search Items"
+#~ msgstr "Tìm kiếm thể loại"
+
+#~ msgid "Process of order #%s"
+#~ msgstr "Xử lý cho đơn đặt tài liệu #%s"
+
+#~ msgid "Pay for order #%s"
+#~ msgstr "Trả tiền cho tài liệu #%s"
+
+#~ msgid "This content has been protected!"
+#~ msgstr "Nội dung chi tiết hoặc Download"
+
+#~ msgid "This content has not publish yet."
+#~ msgstr "Nội dung này chưa sẵn sàng"
+
+#~ msgid "Input balance coupon of order #%s"
+#~ msgstr "Nhập mã thẻ của đơn hàng #%s"
+
+#, fuzzy
+#~ msgid "Get more balance"
+#~ msgstr "Cập nhật số dư"
+
+#~ msgid ""
+#~ "Have a balance coupon? <a href=\"%s\">Click here to enter your code</a>"
+#~ msgstr "Bạn có thẻ VIP? <a href=\"%s\">Click vào đây để nhập mã thẻ</a>"
+
+#~ msgid "Only accept Balance code."
+#~ msgstr "Mã thẻ vừa nhập không hợp lệ"
+
+#~ msgid "Submit coupon code: %s"
+#~ msgstr "Gửi mã thẻ: %s"
+
+#, fuzzy
+#~ msgid "Balance submit successfully."
+#~ msgstr "Cập nhật thành công"
+
+#~ msgid "Please input balance code."
+#~ msgstr "Vui lòng nhập mã thẻ"
+
+#~ msgid "Update balance"
+#~ msgstr "Cập nhật số dư"
+
+#~ msgid "Your balance histories, current balance: %s"
+#~ msgstr "Lịch sử số dư, số dư hiện tại: %s"
+
+#~ msgid "All Items"
+#~ msgstr "Bộ sưu tập"
+
+#~ msgid "Order"
+#~ msgstr "Giao dịch"
+
+#~ msgid "Order Number"
+#~ msgstr "Mã giao dịch"
+
+#~ msgid "Download file%s"
+#~ msgstr "Download file%s"
+
+#~ msgid "Balance code"
+#~ msgstr "Mã thẻ VIP"
+
+#~ msgid "Apply balance"
+#~ msgstr "Cập nhật"
+
+#~ msgid "Purchasing Histories"
+#~ msgstr "Lịch sử mua hàng"
+
+#, fuzzy
+#~ msgctxt "taxonomy general name"
+#~ msgid "Genres"
+#~ msgstr "Nhóm thể loại"
+
+#, fuzzy
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Genre"
+#~ msgstr "Thể loại"
+
+#~ msgid "All Genres"
+#~ msgstr "Tất cả thể loại"
+
+#~ msgid "Parent Genre"
+#~ msgstr "Thể loại cấp cha"
+
+#~ msgid "Parent Genre:"
+#~ msgstr "Thể loại cấp cha:"
+
+#~ msgid "Edit Genre"
+#~ msgstr "Sửa thể loại"
+
+#~ msgid "Add New Genre"
+#~ msgstr "Thêm mới thể loại"
+
+#~ msgid "New Genre Name"
+#~ msgstr "Tạo thể loại mới"
+
+#~ msgid "Genre"
+#~ msgstr "Thể loại"
+
+#~ msgid ""
+#~ "%1$s is <strong>deprecated</strong> since version %2$s of the "
+#~ "WooFramework! Use %3$s instead."
+#~ msgstr ""
+#~ "%1$s đã bị <strong>lỗi thời</strong> từ phiên bản %2$s của WooFramework! "
+#~ "Nên dùng %3$s."
+
+#~ msgid "WordPress Menu Management"
+#~ msgstr "Thực đơn quản lý Wordpress"
+
+#~ msgid "WooDojo Twitter widgets."
+#~ msgstr "WooDojo Twitter widgets."
+
+#~ msgid "Framework Updates"
+#~ msgstr ""
+#~ "Cập nhật \n"
+#~ "Framework"
+
+#~ msgid "A new version of WooFramework is available."
+#~ msgstr ""
+#~ "Woo\n"
+#~ "Framework đã có phiên bản mới"
+
+#~ msgid ""
+#~ "This updater will download and extract the latest WooFramework files to "
+#~ "your current theme's functions folder."
+#~ msgstr ""
+#~ "Trình cập nhật sẽ download và giải nén WooFramework file vào thư mục "
+#~ "functions của theme hiện tại"
+
+#~ msgid ""
+#~ "We recommend backing up your theme files and updating WordPress to latest "
+#~ "version before proceeding."
+#~ msgstr ""
+#~ "Chúng tôi khuyên nên lưu file của theme trước khi cập nhật bản mới nhất "
+#~ "của WordPress"
+
+#~ msgid "Read the Release Notes"
+#~ msgstr "Xem qua các vấn đề được cập nhật"
+
+#~ msgid "Page %s"
+#~ msgstr "Trang %s"
+
+#~ msgid "Arial"
+#~ msgstr "Arial"
+
+#~ msgid "Verdana"
+#~ msgstr "Verdana"
+
+#~ msgid "Trebuchet"
+#~ msgstr "Trebuchet"
+
+#~ msgid "Georgia"
+#~ msgstr "Georgia"
+
+#~ msgid "Times New Roman"
+#~ msgstr "Times New Roman"
+
+#~ msgid "Tahoma"
+#~ msgstr "Tahoma"
+
+#~ msgid "Palatino"
+#~ msgstr "Palatino"
+
+#~ msgid "Helvetica *"
+#~ msgstr "Helvetica *"
+
+#~ msgid "Calibri *"
+#~ msgstr "Calibri *"
+
+#~ msgid "Myriad Pro *"
+#~ msgstr "Myriad Pro *"
+
+#~ msgid "Lucida"
+#~ msgstr "Lucida"
+
+#~ msgid "Arial Black"
+#~ msgstr "Arial Black"
+
+#~ msgid "Gill Sans *"
+#~ msgstr "Gill Sans *"
+
+#~ msgid "Geneva *"
+#~ msgstr "Geneva *"
+
+#~ msgid "Impact"
+#~ msgstr "Impact"
+
+#~ msgid "Courier"
+#~ msgstr "Courier"
+
+#~ msgid "Century Gothic"
+#~ msgstr "Century Gothic"
+
+#~ msgid "&larr; Previous"
+#~ msgstr "&larr; Previous"
+
+#~ msgid "Next &rarr;"
+#~ msgstr "Next &rarr;"
+
+#~ msgid "You are here:"
+#~ msgstr "Bạn ở :"
+
+#~ msgid "Home"
+#~ msgstr "Trang "
+
+#~ msgid "g:i a"
+#~ msgstr "g:i a"
+
+#~ msgid "Minute %1$s"
+#~ msgstr "Minute %1$s"
+
+#~ msgid "i"
+#~ msgstr "i"
+
+#~ msgid "g a"
+#~ msgstr "g a"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "j"
+#~ msgstr "j"
+
+#~ msgid "Week %1$s"
+#~ msgstr "Week %1$s"
+
+#~ msgid "Search results for &quot;%1$s&quot;"
+#~ msgstr "Kết quả tìm kiếm &quot;%1$s&quot;"
+
+#~ msgid "404 Not Found"
+#~ msgstr "404 Not Found"
+
+#~ msgid "Enhance your theme with WooDojo."
+#~ msgstr "Nâng cao theme với công  WooDojo."
+
+#~ msgid ""
+#~ "WooDojo is a powerful WooThemes features suite for enhancing your "
+#~ "website. Learn more."
+#~ msgstr ""
+#~ "WooDojo là một công cụ mạnh mẽ của WooThemes với các tính năng nâng cao, "
+#~ "xem thêm."
+
+#~ msgid "Get WooDojo"
+#~ msgstr "Lấy WooDojo "
+
+#~ msgid "Close"
+#~ msgstr "Đóng"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Bạn không có đủ quyền để truy cập trang "
+
+#~ msgid "You have taken too long. Please go back and retry."
+#~ msgstr "Bạn làm quá lâu. Vui lòng quay về để thử "
+
+#~ msgid "ATTENTION: Insecure Version of Timthumb Image Resize Script Detected"
+#~ msgstr "Chú ý: Công cụ Timthumb Image Resize chứa đoạn mã không an "
+
+#~ msgid ""
+#~ "A possible old version of the TimThumb script was detected in your theme "
+#~ "folder. Please remove the following files from your theme as a security "
+#~ "precaution"
+#~ msgstr ""
+#~ "Có thể đoạn mã Timthumb được phát hiện nằm trong phiên bản cũ của theme "
+#~ "này. Xin vui lòng gỡ bỏ những file dưới đây từ chủ đề để phòng ngừa an "
+
+#~ msgid "Next"
+#~ msgstr "Tiếp"
+
+#~ msgid "Use this Image"
+#~ msgstr "Sử dụng ảnh này"
+
+#~ msgid "Tweet"
+#~ msgstr "Tweet"
+
+#~ msgid "Read More"
+#~ msgstr "Đọc thêm"
+
+#~ msgid "Read Less"
+#~ msgstr "Đọc lướt"
+
+#~ msgid "Message via the contact form"
+#~ msgstr "Tin nhắn qua form liên hệ"
+
+#~ msgid "Submit"
+#~ msgstr "Submit"
+
+#~ msgid "Please enter your name"
+#~ msgstr "Vui lòng nhập "
+
+#~ msgid "Please enter your email address (and please make sure it's valid)"
+#~ msgstr "Vui lòng nhập địa chỉ email (ví dụ: ketoankiemtoanweb@gmail.com )"
+
+#~ msgid "Please enter your message"
+#~ msgstr "Vui lòng nhập nội dụng"
+
+#~ msgid "Name"
+#~ msgstr "Tên"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Message"
+#~ msgstr "Tin nhắn"
+
+#~ msgid "Your email was successfully sent."
+#~ msgstr "Email của bạn đã được gửi thành công"
+
+#~ msgid "Welcome to: <span><a href=\"%s\">%s</a></span> | "
+#~ msgstr "Xin chào: <span><a href=\"%s\">%s</a></span> | "
+
+#~ msgid "<a href=\"%s\"> Logout</a>"
+#~ msgstr "<a href=\"%s\"> Thoát</a>"
+
+#~ msgid " | Balance %s"
+#~ msgstr " | Số dư %s"
+
+#~ msgid "<a href=\"%s\" class=\"button-login\">Login</a>"
+#~ msgstr "<a href=\"%s\" class=\"button-login\">Đăng nhập</a>"
+
+#~ msgid "Select a category:"
+#~ msgstr "Chọn danh mục:"
+
+#~ msgid "Select a page:"
+#~ msgstr "Chọn trang:"
+
+#~ msgid "Custom Logo"
+#~ msgstr "Chọn logo:"
+
+#~ msgid "Upload a logo for your theme, or specify an image URL directly."
+#~ msgstr "Tải ảnh logo, hoặc nhập đường dẫn ảnh trực tiếp"
+
+#~ msgid "Text Title"
+#~ msgstr "Tiêu đề dạng văn bản"
+
+#~ msgid ""
+#~ "Enable text-based Site Title and Tagline. Setup title & tagline in <a "
+#~ "href=\"%s\">General Settings</a>."
+#~ msgstr ""
+#~ "Cho phép hiển thị Tiêu đề, tagline thay vì logo. Thiết lập Tiêu đề & "
+#~ "tagline ở đây  <a href=\"%s\">Thiết lập chung</a>."
+
+#~ msgid "Copyright Text"
+#~ msgstr "Mô tả về bản quyền"
+
+#~ msgid "Footer copyright text"
+#~ msgstr "Mô tả bản quyền ở chân trang"
+
+#~ msgid ""
+#~ "<p>© 2012 - 2014 Copyright by KETOANKIEMTOAN.VN</p><span>Design by "
+#~ "IBOSSVIETNAM</span>"
+#~ msgstr ""
+#~ "<p>© 2012 - 2014 Bản quyền thuộc về KETOANKIEMTOAN.VN</p><span>Thiết kế "
+#~ "bởi IBOSSVIETNAM</span>"
+
+#~ msgid "My Page Info"
+#~ msgstr "Thông tin của trang"
+
+#~ msgid "Select page which you want to show customer info"
+#~ msgstr "Chọn trang mà bạn muốn hiển thị thông tin khách hàng"
+
+#~ msgid "Homepage Settings"
+#~ msgstr "Thiết lập trang chủ"
+
+#~ msgid "Limit number of post"
+#~ msgstr "Số bài hiển thị"
+
+#~ msgid "Select the number of entries that should appear in the home page"
+#~ msgstr "Chọn số lượng hiển thị tối đa được xuất hiện ở trang chủ"
+
+#~ msgid "Woocommerce"
+#~ msgstr "Woocommerce"
+
+#~ msgid ""
+#~ "Enter the number of days before a description expires, or leave blank."
+#~ msgstr "Nhập số ngày trước khi nội dung hết hạn, hoặc để trống"
+
+#~ msgid "Excerpt Length"
+#~ msgstr "Độ lớn của trích "
+
+#~ msgid "Enter the number of words"
+#~ msgstr "Nhập số lượng của từ"
+
+#~ msgid "Your Rating"
+#~ msgstr "Đánh giá"
+
+#~ msgid "Rate&hellip;"
+#~ msgstr "Đánh giá&hellip;"
+
+#~ msgid "Perfect"
+#~ msgstr "Chuyên nghiệp"
+
+#~ msgid "Good"
+#~ msgstr "Tốt"
+
+#~ msgid "Average"
+#~ msgstr "Trung bình"
+
+#~ msgid "Not that bad"
+#~ msgstr "Không tồi"
+
+#~ msgid "Very Poor"
+#~ msgstr "Rất tồi"
+
+#~ msgid "Your Review"
+#~ msgstr "Ý kiến của bạn"
+
+#~ msgid "View your shopping cart"
+#~ msgstr "Xem các bài đã chọn"
+
+#~ msgid "%d item &ndash; "
+#~ msgid_plural "%d items &ndash; "
+#~ msgstr[0] "%d item &ndash; "
+
+#~ msgid "Your balance is not enough for purchase this transaction"
+#~ msgstr "Số tiền dư không đủ để mua, vui lòng nạp thêm tiền"
+
+#~ msgid "Reviews"
+#~ msgstr "Các phản hồi"
+
+#~ msgid "Rating"
+#~ msgstr "Đáng giá"
+
+#~ msgid "Display a list of your products on your site by grouped."
+#~ msgstr "Hiển thị danh sách bài trên website theo nhóm"
+
+#~ msgid "KetoKito Grouped Products"
+#~ msgstr "KetoKito Bài theo nhóm"
+
+#~ msgid "Grouped Products"
+#~ msgstr "Bài viết theo nhóm"
+
+#~ msgid "Number of products to show"
+#~ msgstr "Số lượng bài hiển thị"
+
+#~ msgid "Show"
+#~ msgstr "Hiển thị"
+
+#~ msgid "All Products"
+#~ msgstr "Tất cả"
+
+#~ msgid "Featured Products"
+#~ msgstr "Bài nổi bật"
+
+#~ msgid "On-sale Products"
+#~ msgstr "Bài giảm giá"
+
+#~ msgid "Order by"
+#~ msgstr "Sắp xếp theo"
+
+#~ msgid "Random"
+#~ msgstr "Ngẫu nhiên"
+
+#~ msgid "Sales"
+#~ msgstr "Giảm giá"
+
+#~ msgctxt "Sorting order"
+#~ msgid "Order"
+#~ msgstr "Kiểu sắp xếp"
+
+#~ msgid "ASC"
+#~ msgstr "Tăng dần"
+
+#~ msgid "DESC"
+#~ msgstr "Giảm dần"
+
+#~ msgid "Use this widget to list your product by Genre."
+#~ msgstr "Hiển thì bài viết theo thể loại"
+
+#~ msgid "KetoKito Product By Genre"
+#~ msgstr "KetoKito Bài theo thể loại"
+
+#~ msgid "Product by Genre"
+#~ msgstr "Bài theo thể loại"
+
+#~ msgid "Available downloads"
+#~ msgstr "Tài liệu đính kèm"
+
+#~ msgid "%s download remaining"
+#~ msgid_plural "%s downloads remaining"
+#~ msgstr[0] "%s tải hoàn thành"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Trả lời cho %s"
+
+#~ msgid "Your Comment"
+#~ msgstr "Ý kiến của bạn"
+
+#~ msgid "News"
+#~ msgstr "Tin tức"
+
+#~ msgid "Not found any post"
+#~ msgstr "Không tìm thấy bài nào"
+
+#~ msgid "Search..."
+#~ msgstr "Tìm kiếm ..."

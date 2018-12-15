@@ -1,0 +1,41 @@
+.woo-manual-order-wrap {
+    padding: 15px;
+    border-radius: 4px;
+    background-color:beige;
+    margin-bottom: 10px;
+}
+.woo-manual-order-wrap .hide-if-no-js {
+    display: none;
+}
+
+.woo-manual-order-wrap .button {
+    color: #ffffff;
+    background-color: #666;
+    border-color: #666;
+
+}
+.wc-manual-order-button-wrap {
+    margin-top: 6px;
+}
+.woo-manual-order-wrap .button:hover, .woo-manual-order-wrap .button:focus {
+    background-color: #43454b;
+    border-color: #43454b;
+    color: #ffffff;
+}
+.woo-manual-order-wrap .button.loading:hover {
+    background-color: #43454b;
+}
+
+.woo-manual-order-wrap .button.loading:after {
+    color: #ffffff;
+}
+
+.woo-manual-order-wrap .wc-customer-search, .woo-manual-order-wrap .wc-product-search {
+    width: 100%;
+}
+.woo-manual-order-wrap .woo-manual-choose-customer {
+    margin-bottom: 25px;
+}
+.woo-manual-order-wrap .woo-manual-product-search {
+    margin-bottom: 10px;
+}
